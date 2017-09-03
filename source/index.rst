@@ -1,0 +1,12 @@
+.. pythonsamples documentation master file, created by
+   sphinx-quickstart on Sat Sep  2 12:09:15 2017.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to pythonsamples
+=========================================
+
+.. toctree::
+   :maxdepth: 2
+
+   all-about-me
