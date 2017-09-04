@@ -5,8 +5,11 @@
 
 Welcome to pythonsamples
 =========================================
-
 .. toctree::
    :maxdepth: 2
-
-   all-about-me
+   :numbered:
+   
+   introduction
+   zip
+   enumerate
+   map

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Welcome to pythonsamples &mdash; pythonsamples  documentation</title>
+  <title>4. map &mdash; pythonsamples  documentation</title>
   
 
   
@@ -35,8 +35,8 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="pythonsamples  documentation" href="#"/>
-        <link rel="next" title="1. Introduction" href="introduction.html"/> 
+    <link rel="top" title="pythonsamples  documentation" href="index.html"/>
+        <link rel="prev" title="3. enumerate" href="enumerate.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -55,7 +55,7 @@
           
 
           
-            <a href="#" class="icon icon-home"> pythonsamples
+            <a href="index.html" class="icon icon-home"> pythonsamples
           
 
           
@@ -85,11 +85,11 @@
               
             
             
-              <ul>
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="zip.html">2. zip</a></li>
 <li class="toctree-l1"><a class="reference internal" href="enumerate.html">3. enumerate</a></li>
-<li class="toctree-l1"><a class="reference internal" href="map.html">4. map</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">4. map</a></li>
 </ul>
 
             
@@ -104,7 +104,7 @@
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">pythonsamples</a>
+          <a href="index.html">pythonsamples</a>
         
       </nav>
 
@@ -132,15 +132,15 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="#">Docs</a> &raquo;</li>
+      <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Welcome to pythonsamples</li>
+      <li>4. map</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/map.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -153,15 +153,16 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="welcome-to-pythonsamples">
-<h1>Welcome to pythonsamples<a class="headerlink" href="#welcome-to-pythonsamples" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">1. Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="zip.html">2. zip</a></li>
-<li class="toctree-l1"><a class="reference internal" href="enumerate.html">3. enumerate</a></li>
-<li class="toctree-l1"><a class="reference internal" href="map.html">4. map</a></li>
-</ul>
+  <div class="section" id="map">
+<h1>4. map<a class="headerlink" href="#map" title="Permalink to this headline">¶</a></h1>
+<p><strong>map</strong> is an <code class="docutils literal"><span class="pre">iterable</span> <span class="pre">object</span></code> that provides an extremely useful technique to apply
+a function on all elements of a list. For instance, I have found this very handy where
+in I want a bunch of consecutive Integers that represent a Year to be column indexes of a dataframe.
+What is happening here is that a range of consecutive integers starting from 2006
+and ending at 2015, have all been converted into a list of strings, using map.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="nb">str</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2006</span><span class="p">,</span> <span class="mi">2016</span><span class="p">)))</span>
+<span class="go">[&#39;2006&#39;, &#39;2007&#39;, &#39;2008&#39;, &#39;2009&#39;, &#39;2010&#39;, &#39;2011&#39;, &#39;2012&#39;, &#39;2013&#39;, &#39;2014&#39;, &#39;2015&#39;]</span>
+</pre></div>
 </div>
 </div>
 
@@ -175,8 +176,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="introduction.html" class="btn btn-neutral float-right" title="1. Introduction" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
+        <a href="enumerate.html" class="btn btn-neutral" title="3. enumerate" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
